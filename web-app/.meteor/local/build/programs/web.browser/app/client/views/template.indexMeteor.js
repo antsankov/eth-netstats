@@ -380,7 +380,7 @@ Template["indexMeteor"] = new Template("Template.indexMeteor", (function() {
   }, HTML.I({
     "data-toggle": "tooltip",
     "data-placement": "top",
-    title: "Total difficulty",
+    title: "Chain weight",
     "ng-click": "orderTable(['-stats.block.totalDifficulty'], false)",
     "class": "icon-difficulty"
   })), "\n            ", HTML.TH(HTML.I({

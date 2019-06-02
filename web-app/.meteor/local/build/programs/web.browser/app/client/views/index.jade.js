@@ -298,7 +298,7 @@ Template["index"] = new Template("Template.index", (function() {
     "class": "icon-difficulty",
     "data-toggle": "tooltip",
     "data-placement": "top",
-    title: "Total difficulty",
+    title: "Chain weight",
     "ng-click": "orderTable(['-stats.block.totalDifficulty'], false)"
   })), "\n", HTML.TH(HTML.I({
     "class": "icon-check-o",
